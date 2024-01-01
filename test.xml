@@ -1,8 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Todo Application">
-    <test name="greating Test">
+    <test name="greeting Test">
         <classes>
+            <class name="Methods"/>
             <class name="NameTest"/>
             <class name="NameTest2"/>
         </classes>
