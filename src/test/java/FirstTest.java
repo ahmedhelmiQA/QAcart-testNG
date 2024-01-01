@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class NameTest{
+public class FirstTest {
 
 
 //    @Test

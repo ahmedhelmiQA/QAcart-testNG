@@ -3,12 +3,12 @@
 <suite name="Todo Application">
     <test name="greeting Test">
         <classes>
-            <class name="NameTest"/>
+            <class name="FirstTest"/>
         </classes>
     </test>
     <test name="Test2">
         <classes>
-            <class name="NameTest2">
+            <class name="SecondTest">
                 <methods>
                     <exclude name="E"/>
                     <include name="E"/>

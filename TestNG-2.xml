@@ -8,13 +8,13 @@
    </groups>
     <test name="Test1">
         <classes>
-            <class name="NameTest2"/>
+            <class name="SecondTest"/>
         </classes>
     </test>
 
     <test name="Test2">
         <classes>
-            <class name="NameTest"/>
+            <class name="FirstTest"/>
         </classes>
     </test>
 

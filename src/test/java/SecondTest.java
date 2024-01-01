@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class NameTest2 extends Methods{
+public class SecondTest extends Methods{
     @Test    (groups ={ "sanity","regression"})
     public void C() {
         System.out.println("Start With testcase 3");
