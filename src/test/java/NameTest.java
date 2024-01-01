@@ -19,13 +19,13 @@ public class NameTest{
 //        Assert.assertEquals(actualResult , expectedResult);
 //    }
 
-    @Test
+    @Test (priority = 2)
     public void A() {
         String expextedResult = "USER";
         String  actualResult = Name.checkName("ahmed.");
         Assert.assertEquals(actualResult , expextedResult);
     }
-    @Test
+    @Test (priority = 1)
     public void B() {
         String expectedResult = "ahmed";
         String actualResult = Name.checkName("ahmed");
