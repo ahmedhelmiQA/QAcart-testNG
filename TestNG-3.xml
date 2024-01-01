@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="ToApplication">
-    <parameter name="browser" value="chrome"></parameter>
-    <parameter name="version" value="11.5"></parameter>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="11.5"/>
     <test name="Test1">
         <classes>
             <class name="ThirdTest"/>
